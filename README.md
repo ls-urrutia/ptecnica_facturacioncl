@@ -18,7 +18,7 @@ Ademas se le agrego la funcionalidad 'delete' para borrar registros.
 
 ## Documentación Código
 
-Ire desglosando los requerimientos y acorde a eso documentare lo que hice para abarcar lo que se evaluo
+Ire desglosando los requerimientos y acorde a eso documentaré lo que hice para abarcar lo que se evaluo
 
 ### 1. Definición de comportamiento  
 
@@ -77,7 +77,7 @@ Representado por esta funcion:
 
 "Si se registró de forma exitosa debe visualizarse dicho registro en la tabla del final. "
 
-El proceso va desde que el usuario apreta el botoon 'Registrar', ahí se ejecuta el metodo _registerUser
+El proceso va desde que el usuario apreta el botón 'Registrar', ahí se ejecuta el metodo _registerUser
 
      Future<void> _registerUser() async {
        if (_formKey.currentState!.validate()) {
@@ -204,7 +204,7 @@ Debe tener al menos 6 caracteres:
                             return 'La contraseña debe tener al menos 6 caracteres';
                           }
 
-### 5. Organización
+### 5. Organización, MVC.
 
 Se podría haber organizado mejor en carpetas como en lib hacer subcarpetas ( /db, /models, /screens y /widgets) pero decidi hacerlo de esta forma dado que solo llega hasta este punto, dejo la anotación para dar por enterado que consideré eso.
 
